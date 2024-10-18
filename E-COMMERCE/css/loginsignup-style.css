@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300px; 
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 1rem; 
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 2rem;
+    border-radius: .3rem;
+    border: 1px solid #ccc;
+    margin: .3rem;
+}
+
+button {
+    height: 2rem;
+    border-radius: 1rem;
+    margin: .3rem;
+    border: none;
+    background-color: #ff95b2;
+    color: #FFF;
+}

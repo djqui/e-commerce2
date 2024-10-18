@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header {
+    background-color: #ff95b2;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ff95b2;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.product-panel {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.product-panel > div {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    flex: 1 1 200px;
+    max-width: 200px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-width: 200px;
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box h1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    height: 2rem;
+    border-radius: 1rem;
+    margin: .3rem;
+    border: none;
+    background-color: #ff95b2;
+    color: #FFF;
+    cursor: pointer;
+    padding: 0 1rem;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff7a9e;
+}
+
+.add-to-cart {
+    width: 100%;
+    max-width: 150px;
+}
+
+.product-panel > div form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    border-radius: 1rem;
+    background-color: #ff95b2;
+    color: #FFF;
+    padding: 2rem;
+    max-width: 70rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: left;
+}
